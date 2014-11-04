@@ -1,5 +1,6 @@
 body {
   padding-top: 50px;
+  background-color: #ffcb66;
 }
 .starter-template {
   padding: 40px 15px;
@@ -19,7 +20,7 @@ h4 {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #eee;
-  background-color: rgba(86,61,124,.15);
+  background-color: #a30046;
   border: 1px solid #ddd;
   border: 1px solid rgba(86,61,124,.2);
 }
@@ -37,4 +38,39 @@ a.list-group-item.active small {
 }
 .stars {
     margin:20px auto 1px;    
+}
+#users-management .panel-heading {
+    height: 55px;
+}
+
+#users-management h4 {
+    line-height: 35px;
+}
+
+#users-management .panel-heading img {
+    width: 32px;
+    margin-right: 0.25em;
+}
+
+#users-management .panel-body img {
+    margin: 0 1em 1em 0;
+}
+
+@media (max-width: 460px) {
+    #users-management .panel-heading .btn-group .btn span {
+        display: none;
+    }
+
+    #users-management .panel-heading img {
+        display: none;
+    }
+
+    #users-management .panel-heading .btn-group .btn {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    #users-management .panel-heading h4 {
+        font-size: 13px;
+    };
 }

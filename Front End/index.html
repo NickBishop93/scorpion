@@ -23,10 +23,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-    
+    <link href="font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <body>
 
-    <div class="container">
+      <div class="container">
    <div class="row">
       <div class="col-md-12">
          <nav class="navbar navbar-default" role="navigation">
@@ -107,88 +107,134 @@
       </div>
    </div>
 </div>
-
-    <div class="container">
-    <div class="row">
-		<div class="well">
-        <h1 class="text-center">Vote for your favorite</h1>
-        <div class="list-group">
-          <a href="#" class="list-group-item active">
-                <div class="media col-md-3">
-                    <figure class="pull-left">
-                        <img class="media-object img-rounded img-responsive"  src="http://placehold.it/350x250" alt="placehold.it/350x250" >
-                    </figure>
-                </div>
-                <div class="col-md-6">
-                    <h4 class="list-group-item-heading"> Project Description </h4>
-                    <p class="list-group-item-text"> Desctiption of the Project. Details. More Details. Even more details. More details than the details before this sentence. So many details I am getting extremely bored writing about it. Details.  
-                    </p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <h2> 14240 <small> votes </small></h2>
-                    <button type="button" class="btn btn-default btn-lg btn-block"> Vote Now! </button>
-                    <div class="stars">
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                    </div>
-                    <p> Average 4.5 <small> / </small> 5 </p>
-                </div>
-          </a>
-          <a href="#" class="list-group-item">
-                <div class="media col-md-3">
-                    <figure class="pull-left">
-                        <img class="media-object img-rounded img-responsive" src="http://placehold.it/350x250" alt="placehold.it/350x250" >
-                    </figure>
-                </div>
-                <div class="col-md-6">
-                    <h4 class="list-group-item-heading"> Project Description </h4>
-                    <p class="list-group-item-text"> Desctiption of the Project. Details. More Details. Even more details. More details than the details before this sentence. So many details I am getting extremely bored writing about it. Details.                         
-                    </p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <h2> 12424 <small> votes </small></h2>
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Vote Now!</button>
-                    <div class="stars">
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                    </div>
-                    <p> Average 3.9 <small> / </small> 5 </p>
-                </div>
-          </a>
-          <a href="#" class="list-group-item">
-                <div class="media col-md-3">
-                    <figure class="pull-left">
-                        <img class="media-object img-rounded img-responsive" src="http://placehold.it/350x250" alt="placehold.it/350x250">
-                    </figure>
-                </div>
-                <div class="col-md-6">
-                    <h4 class="list-group-item-heading"> Project Description </h4>
-                    <p class="list-group-item-text"> Desctiption of the Project. Details. More Details. Even more details. More details than the details before this sentence. So many details I am getting extremely bored writing about it. Details.                           
-                    </p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <h2> 13540 <small> votes </small></h2>
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Vote Now!</button>
-                    <div class="stars">
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star-empty"></span>
-                    </div>
-                    <p> Average 4.1 <small> / </small> 5 </p>
-                </div>
-          </a>
+  
+   <div class="container">
+  <h1 class="page-header">CIS 440 Projects!</h1>
+  <p class="lead">Vote for your favorite</p>
+  <div class="row">
+    <div id="users-management" class="col-md-8">
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                href="#collapse-1"><img src="images/sogeti.png">
+              Sogeti
+              </a>
+              <!--<div class="btn-group pull-right"><a href="#" class="btn btn-primary"><i class="fa fa-info"></i><span> Info</span></a><a href="#" class="btn btn-warning"><i class="fa fa-pencil"></i><span> Edit</span></a><a href="#" class="btn btn-danger"><i class="fa fa-times"></i><span> Remove</span></a></div>-->
+            </h4>
+          </div>
+          <div id="collapse-1" class="panel-collapse collapse">
+            <div class="panel-body">
+              <img src="images/sogeti.png" class="pull-left" style="width:200px">
+              <p>Project "Beach"- For Client Sogeti USA, an IT Consulting Firm. Creation of record keeping software to track consultants and their skills; 
+			  a summary website; and small web application that will allow users at Sogeti USA to find consultants who are on "the beach."
+              </p>
+            </div>
+            <div class="panel-footer">
+              <div class="btn-group btn-group-xs"><span class="btn">Actions: </span><a class="btn btn-success" href="#"><i class="fa fa-thumbs-up"></i></a> <a class="btn btn-danger" href="#"><i class="fa fa-thumbs-down"></i></a></div>
+            </div>
+          </div>
         </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                href="#collapse-2"><img src="images/noimage.jpg">
+              Summit Structural
+              </a>
+              <!--<div class="btn-group pull-right"><a href="#" class="btn btn-primary"><i class="fa fa-info"></i><span> Info</span></a><a href="#" class="btn btn-warning"><i class="fa fa-pencil"></i><span> Edit</span></a><a href="#" class="btn btn-danger"><i class="fa fa-times"></i><span> Remove</span></a></div>-->
+            </h4>
+          </div>
+          <div id="collapse-2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <img src="images/noimage.jpg" class="pull-left" style="width:200px">
+              <p>Summit Structural is a company that offers Structural Forensic Investigations on buildings for people.
+Project - Creating a Website that will be used as a Contact, Marketing, Advertising tool for future clients.
+              </p>
+            </div>
+            <div class="panel-footer">
+              <div class="btn-group btn-group-xs"><span class="btn">Actions: </span><a class="btn btn-success" href="#"><i class="fa fa-thumbs-up"></i></a> <a class="btn btn-danger" href="#"><i class="fa fa-thumbs-down"></i></a></div>
+            </div>
+          </div>
         </div>
-	</div>
-</div><!-- /.container -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                href="#collapse-3"><img src="images/choicehotels.jpg">
+              Choice Hotels
+              </a>
+              <!--<div class="btn-group pull-right"><a href="#" class="btn btn-primary"><i class="fa fa-info"></i><span> Info</span></a><a href="#" class="btn btn-warning"><i class="fa fa-pencil"></i><span> Edit</span></a><a href="#" class="btn btn-danger"><i class="fa fa-times"></i><span> Remove</span></a></div>-->
+            </h4>
+          </div>
+          <div id="collapse-3" class="panel-collapse collapse">
+            <div class="panel-body">
+              <img src="images/choicehotels.jpg" class="pull-left img-circle" style="width:200px">
+              <p>Skill Scheduler. Details. Details. Details. Details. Details. Details. Details. Details. Details. Details. Details. Details.
+			   Details. Details. Details. Details. Details. Details. Details. Details. Details. Details. Details. Details. Details. Details. Details.
+              </p>
+            </div>
+            <div class="panel-footer">
+              <div class="btn-group btn-group-xs"><span class="btn">Actions: </span><a class="btn btn-success" href="#"><i class="fa fa-thumbs-up"></i></a> <a class="btn btn-danger" href="#"><i class="fa fa-thumbs-down"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                href="#collapse-4"><img src="images/oneclickmed.png">
+              Oneclickmed
+              </a>
+              <!--<div class="btn-group pull-right"><a href="#" class="btn btn-primary"><i class="fa fa-info"></i><span> Info</span></a><a href="#" class="btn btn-warning"><i class="fa fa-pencil"></i><span> Edit</span></a><a href="#" class="btn btn-danger"><i class="fa fa-times"></i><span> Remove</span></a></div>-->
+            </h4>
+          </div>
+          <div id="collapse-4" class="panel-collapse collapse">
+            <div class="panel-body">
+              <img src="images/oneclickmed.png" class="pull-left img-circle" style="width:200px">
+              <p>Oneclickmed is looking to incorporate an auction into their website that allows their users to browse, bid on,
+			  and purchase different medical products through the use of integrated auction API's, Java, and PHP.
+              </p>
+            </div>
+            <div class="panel-footer">
+              <div class="btn-group btn-group-xs"><span class="btn">Actions: </span><a class="btn btn-success" href="#"><i class="fa fa-thumbs-up"></i></a> <a class="btn btn-danger" href="#"><i class="fa fa-thumbs-down"></i></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                href="#collapse-5"><img src="images/infusionsoft.jpg">
+              Infusionsoft
+              </a>
+              <!--<div class="btn-group pull-right"><a href="#" class="btn btn-primary"><i class="fa fa-info"></i><span> Info</span></a><a href="#" class="btn btn-warning"><i class="fa fa-pencil"></i><span> Edit</span></a><a href="#" class="btn btn-danger"><i class="fa fa-times"></i><span> Remove</span></a></div>-->
+            </h4>
+          </div>
+          <div id="collapse-5" class="panel-collapse collapse">
+            <div class="panel-body">
+              <img src="images/infusionsoft.jpg" class="pull-left img-circle" style="width:200px">
+              <p>
+				<ul>
+					<li>As security compliance specialist, I want to compare security BSIMM model version, so that we can track our progress</li>
+					<li>As an admin, I want to have a list of BSIMM initiatives, so that I can manage for the organization</li>
+					<li>As an admin, I want to be able to adjust names and descriptions for each initiative while keeping the association with the bsimm initiative</li>
+					<li>As an admin, I want to have access to the list of bsimm activities per initiative keeping the association with the BSIMM initiative</li>
+					<li>As an activity owner I want to be able to schedule when an activity is updated</li>
+					<li>As an activity owner I want to be able to manual override what the metric results</li>
+				</ul>
+              </p>
+            </div>
+            <div class="panel-footer">
+              <div class="btn-group btn-group-xs"><span class="btn">Actions: </span><a class="btn btn-success" href="#"><i class="fa fa-thumbs-up"></i></a> <a class="btn btn-danger" href="#"><i class="fa fa-thumbs-down"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     <!-- Bootstrap core JavaScript
